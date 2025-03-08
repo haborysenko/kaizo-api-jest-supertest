@@ -22,10 +22,10 @@ jobs:
 
       - name: Set up environment variables
         run: |
-          echo "BASE_URL=${{ vars.BASE_URL }}" >> .env
-          echo "API_KEY=${{ vars.API_KEY }}" >> .env
-          echo "USER_ID=${{ vars.USER_ID }}" >> .env
-          echo "AUDIT_NAME=${{ vars.AUDIT_NAME }}" >> .env
+          echo "BASE_URL=${{ secrets.BASE_URL }}" >> .env
+          echo "API_KEY=${{ secrets.API_KEY }}" >> .env
+          echo "USER_ID=${{ secrets.USER_ID }}" >> .env
+          echo "AUDIT_NAME=${{ secrets.AUDIT_NAME }}" >> .env
 
       - name: Run tests
         run: npm test
