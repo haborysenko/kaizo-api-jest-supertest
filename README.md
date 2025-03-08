@@ -23,8 +23,8 @@ This project contains CRUD tests for **Teams** Kaizo API using **Jest** and **Su
 Clone the repository to your local machine and navigate to the project directory:
 
 ```bash
-git clone https://github.com/haborysenko/ApiTestsJestSupertest.git
-cd ApiTestsJestSupertest
+git clone https://github.com/haborysenko/kaizo-api-jest-supertest.git
+cd kaizo-api-jest-supertest
 ```
 
 ### 2. Install Dependencies
